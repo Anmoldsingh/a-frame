@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>texture 3D</title>
+	<script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+</head>
+<body>
+	<a-scene>
+       <a-assets >
+       	<img id="texture" src="C:\Users\juhi\Desktop\a frame\textures\images.jpg">
+       </a-assets>
+		<a-box  color="red" height="1" width="1" depth="1" 
+		position="0 3 0" rotation="45 45 45"  scale= "1 2.5 1" src="#texture"> </a-box>
+	</a-scene>
+	<a-animation attribute="rotation"  repeat="indefinte" to="0 360 0"></a-animation>
+
+</body>
+</html>

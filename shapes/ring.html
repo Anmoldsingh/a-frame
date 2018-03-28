@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ring 3D</title>
+	<script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+</head>
+<body>
+	<a-scene>
+		<a-assets>
+  <img id="texture" src="texture.png">
+</a-assets>
+
+<!-- Basic ring. -->
+<a-ring color="teal" radius-inner="1" radius-outer="2"></a-ring>
+
+<!-- Textured ring. -->
+<a-ring src="#texture"></a-ring>
+	</a-scene>
+
+</body>
+</html>
